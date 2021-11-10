@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, "Helvetica Neue";
+    justify-content: center;
+    padding-left: 35rem;
+}
+
+#status {
+    margin-bottom: 180px;
+    width: 100%;
+    align-content: center;
+    right: 0px;
+    display: relative;
+}
+
+#status svg {
+    margin: auto;
+    margin: 15px;
+    float: right;
+}
+
+#status h4 {
+    margin: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+
+circle.online{
+    /* fill: #0f0; */
+    float: right;
+}
+
+circle.offline {
+    fill: #f00;
+}
+
+.state {
+    display: inline-block;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: #aaa;
+    padding-top: 70px;
+    padding-left: 60px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom right, #aaaaaa, #444444);
+}
+
+.state1 {
+    background-image: linear-gradient(to bottom right, #42c97f, #1b6325);
+}
+
+.state h1 {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.state h1::selection {
+    background-color: rgba(0, 0, 0, 0.0);
+}
